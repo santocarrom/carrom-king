@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <title>Carrom King</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header>
+      <div>
+        <h1>👑 Carrom King</h1>
+        <p>Local 2-player prototype</p>
+      </div>
+      <div class="score">
+        <span>You <b id="score">0</b></span>
+        <span>Turn: <b id="turn">1</b></span>
+      </div>
+    </header>
+
+    <section class="game-card">
+      <canvas id="board" width="720" height="720"></canvas>
+      <div class="controls">
+        <button id="reset">↻ New Game</button>
+        <span id="status">Striker-এর পেছনে টেনে ছেড়ে শট নিন</span>
+      </div>
+    </section>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>

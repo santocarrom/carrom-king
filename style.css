@@ -1,0 +1,12 @@
+*{box-sizing:border-box}
+body{margin:0;background:#07111d;color:#fff;font-family:system-ui,-apple-system,Segoe UI,sans-serif}
+.app{width:min(760px,100%);margin:auto;padding:14px}
+header{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:12px}
+h1{font-size:22px;margin:0 0 3px} p{margin:0;color:#9fb0c3;font-size:13px}
+.score{display:flex;gap:12px;font-size:13px}.score span{background:#102237;padding:8px 10px;border-radius:10px}
+.score b{color:#ffd45a}
+.game-card{background:#0c1b2b;border:1px solid #1c3550;border-radius:18px;padding:10px}
+canvas{width:100%;height:auto;display:block;border-radius:13px;touch-action:none}
+.controls{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 2px 2px}
+button{border:0;border-radius:10px;padding:10px 14px;background:#16a66a;color:#fff;font-weight:700}
+#status{font-size:12px;color:#aebed0;text-align:right}
